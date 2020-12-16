@@ -1,0 +1,40 @@
+{
+  "name": "estatement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore client",
+    "servermongoose": "nodemon servermongoose.js --ignore client",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "json-server": "json-server --watch tbldata.json --port 5000",
+    "mongoserver": "nodemon servermongoose.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "mongo": "concurrently \"npm run servermongoose\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "html-pdf": "^2.2.0",
+    "json-server": "^0.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.3.16",
+    "mssql": "^6.2.2",
+    "multer": "^1.4.2",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}

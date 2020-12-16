@@ -1,0 +1,196 @@
+{
+  "Status": [
+    {
+      "StatusID": 60,
+      "StatusDesc": "Active"
+    },
+    {
+      "StatusID": 61,
+      "StatusDesc": "Not Active"
+    },
+    {
+      "StatusID": 62,
+      "StatusDesc": "Under Maintenance"
+    },
+    {
+      "StatusID": 65,
+      "StatusDesc": "Breakdown "
+    },
+    {
+      "StatusID": 66,
+      "StatusDesc": "Operational "
+    },
+    {
+      "StatusID": 67,
+      "StatusDesc": "Recommended for Disposal"
+    },
+    {
+      "StatusID": 68,
+      "StatusDesc": "Preventive Maintenance"
+    },
+    {
+      "StatusID": 69,
+      "StatusDesc": "Breakdown Maintenance"
+    },
+    {
+      "StatusID": 70,
+      "StatusDesc": "Corrective Maintenance"
+    },
+    {
+      "StatusID": 71,
+      "StatusDesc": "Operational - Ready line"
+    },
+    {
+      "StatusID": 72,
+      "StatusDesc": "Operational - Deployed"
+    },
+    {
+      "StatusID": 73,
+      "StatusDesc": " DISPOSED"
+    },
+    {
+      "StatusID": 74,
+      "StatusDesc": "Missing / Lost"
+    },
+    {
+      "StatusID": 75,
+      "StatusDesc": "For Repair"
+    },
+    {
+      "StatusID": 76,
+      "StatusDesc": "Deleted"
+    }
+  ],
+  "Category": [
+    {
+      "id": 0,
+      "CatDesc": "N/A"
+    },
+    {
+      "id": 80,
+      "CatDesc": "BUILDING AND FACILITY"
+    },
+    {
+      "id": 81,
+      "CatDesc": "ICT EQUIPMENTS"
+    },
+    {
+      "id": 82,
+      "CatDesc": "OFFICE FURNITURE AND EQUIPMENT"
+    },
+    {
+      "id": 83,
+      "CatDesc": "TRANSPORTATION EQUIPMENT"
+    },
+    {
+      "id": 84,
+      "CatDesc": "HANDLING PORT EQUIPMENTS"
+    },
+    {
+      "id": 127,
+      "CatDesc": "OTHERS"
+    },
+    {
+      "id": 147,
+      "CatDesc": "CAMERA"
+    },
+    {
+      "id": 152,
+      "CatDesc": "COMMUNICATION EQUIPMENT"
+    }
+  ],
+  "Maintenance": [
+    {
+      "MainteID": 23,
+      "MainteDesc": "In House"
+    },
+    {
+      "MainteID": 24,
+      "MainteDesc": "Third Party"
+    },
+    {
+      "MainteID": 33,
+      "MainteDesc": ""
+    }
+  ],
+  "Service": [
+    {
+      "DepCode": "ENGRG-CONSMA",
+      "DepName": "CONSTRUCTION & MAINTENANCE"
+    },
+    {
+      "DepCode": "ENGRG-DREDG",
+      "DepName": "DREDGING"
+    },
+    {
+      "DepCode": "ENGRG",
+      "DepName": "ENGINEERING"
+    },
+    {
+      "DepCode": "ITHNI",
+      "DepName": "ENTERPRISE SYSTEM DELIVERY"
+    },
+    {
+      "DepCode": "MATMA",
+      "DepName": "MATERIALS MANAGEMENT AND GENERAL SERVICES"
+    },
+    {
+      "DepCode": "ENGRG-NAVIG",
+      "DepName": "NAVIGATION"
+    },
+    {
+      "DepCode": "ENGRG-ENGRHD",
+      "DepName": "OFFICE OF THE ENGR HEAD"
+    },
+    {
+      "DepCode": "POMAH",
+      "DepName": "OFFICE OF THE MATERIALS MANAGEMENT HEAD"
+    },
+    {
+      "DepCode": "ORD",
+      "DepName": "OPERATIONS RESOURCE"
+    },
+    {
+      "DepCode": "ENGRG-PROJMA",
+      "DepName": "PROJECT MANAGEMENT"
+    }
+  ],
+  "Division": [
+    {
+      "DivCode": "0",
+      "DivName": "N/A"
+    },
+    {
+      "DivCode": "ADMIN",
+      "DivName": "ADMINISTRATION"
+    },
+    {
+      "DivCode": "FNNCE",
+      "DivName": "FINANCE"
+    },
+    {
+      "DivCode": "HRLEG",
+      "DivName": "LEGAL & HUMAN RESOURCES"
+    },
+    {
+      "DivCode": "INFTC",
+      "DivName": "INFORMATION & COMMUNICATIONS TECHNOLOGY"
+    },
+    {
+      "DivCode": "MKTNG",
+      "DivName": "MARKETING"
+    },
+    {
+      "DivCode": "OOCOB",
+      "DivName": "OFFICE OF THE CHAIRMAN OF THE BOARD/PRESIDENT & CEO"
+    },
+    {
+      "DivCode": "OOGM",
+      "DivName": "OFFICE OF THE GENERAL MANAGER"
+    },
+    {
+      "DivCode": "OPTNS",
+      "DivName": "OPERATIONS"
+    }
+  ]
+}

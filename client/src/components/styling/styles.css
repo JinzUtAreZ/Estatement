@@ -1,0 +1,42 @@
+#info-block section {
+  border: 3px solid;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 1.5em;
+  border-color: #ef6c00;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px SkyBlue;
+  margin: 15px 15px 15px 15px;
+}
+
+#info-block section:hover {
+  box-shadow: 0 13px 17px 0 rgba(0, 0, 0, 0.25),
+    0 18px 51px 0 rgba(0, 0, 0, 0.2);
+}
+.file-marker > div {
+  padding: 0 3px;
+  height: inherit;
+  margin-top: -2.5em;
+}
+.box-title {
+  background: linear-gradient(to left, #2196f3, lightblue, orange, yellow);
+  display: inline-block;
+  padding: 0 5px 0 5px;
+  margin-left: 2em;
+  font-size: 1.5em;
+  border-radius: 3px;
+}
+.divBodyRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.divBodyColumn {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
